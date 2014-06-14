@@ -1,14 +1,17 @@
-﻿div
-{
-    display:block;
-    background:green;
+﻿div {
     width: 100px;
     height:100px;
 }
 
-p
-{
+.tile {
+	background: green;
+}
+
+.content {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	padding: 20px 0;
     display: none;
-    width: 100px;
-    height: 100px;
+    text-align: center;
 }
